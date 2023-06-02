@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Lora', serif;
+    color: #f0f0f0;
+    font-size: 38px;
+    line-height: 44px;
+}
+
+.container {
+    background-color: #045946;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .containerBox {
+        width: 1024px;
+        height: 450px;
+        border: 5px solid #0aa57a;
+
+        display: flex;
+
+        .sidebar {
+            width: 40%;
+            padding: 15px 15px 15px 30px;
+            
+           
+            .profilePicContainer {
+              
+                margin-top: -35px;
+
+                .profilePic {
+                    width: 100%;
+                    height: auto;
+                    object-fit: cover;
+                    object-position: center;
+                }
+
+             
+            }
+        }
+
+        .mainContent {
+            
+            width: 70%;
+            padding: 25px;
+
+            .menuContainer {
+                .menuWrapper {
+                    display: flex;
+                    margin: 0px;
+                    padding: 0px;
+
+                    list-style: none;
+
+                    .menuList {
+                        margin-right: 35px;
+
+                        .linkItem {
+                            text-decoration: none;
+                            color: #d0fff9;
+                            font-size: 18px;
+
+                            font-family: 'Lora', serif;
+                        }
+                    }
+                }
+            }
+
+
+            .contentContainer {
+                .portfolioText {
+                    margin-left: 20px;
+                }
+
+
+                .portfolioList {
+                    display: flex;
+                    
+                    .portfolioItem {
+                        width: 100%;
+                        max-width: 300px;
+                        height: 250px;
+                       
+
+                        .itemImg {
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                            object-position: top;
+                        }
+
+
+                    }
+                }
+            }
+
+           
+        }
+
+      
+    }
+}
