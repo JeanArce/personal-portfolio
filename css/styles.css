@@ -9,6 +9,23 @@ h1 {
     line-height: 44px;
 }
 
+h1.subDetails {
+    font-size: 20px;
+}
+
+p {
+    font-size: 16px;
+}
+
+a {
+    font-size: 16px;
+}
+
+a:hover {
+    font-size: 20px;
+    color: #FFFFFF !important;
+}
+
 .container {
     background-color: #045946;
     width: 100%;
@@ -73,6 +90,7 @@ h1 {
 
 
             .contentContainer {
+
                 .portfolioText {
                     margin-left: 20px;
                 }
@@ -85,8 +103,7 @@ h1 {
                         width: 100%;
                         max-width: 300px;
                         height: 250px;
-                       
-
+                        
                         .itemImg {
                             width: 100%;
                             height: 100%;
@@ -94,9 +111,33 @@ h1 {
                             object-position: top;
                         }
 
-
                     }
+
+                    .portfolioItem.mainImage {
+                        min-width: 200px;
+                        margin-right: 20px;
+                    }
+
+                    .portFolioDetails {
+                        color: #d0fff9;
+
+                        .link {
+                            color: #0aa57a;
+
+                        }
+                    }
+
+
+
                 }
+
+
+                .innerContent {
+                    color: #d0fff9;
+                }
+
+
+
             }
 
            
