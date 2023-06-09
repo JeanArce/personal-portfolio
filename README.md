@@ -1,5 +1,7 @@
 # My portfolio 
 
+![profilePic](https://drive.google.com/uc?export=view&id=18GQEgGi_OVqHcGtZucUvFR5z24e_w3M0)
+
 
 | Projects                |             GitHub URL                                            |       Website URL                               |
 | --------                | --------                                                          | --------                                        |
