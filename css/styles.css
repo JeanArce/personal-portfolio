@@ -21,10 +21,75 @@ a {
     font-size: 16px;
 }
 
+a.backLink {
+    color: #FFFFFF;
+    margin-right: 15px;
+    margin-top: 15px;
+    display: block;
+}
+
+
+
 a:hover {
     font-size: 20px;
     color: #FFFFFF !important;
 }
+
+a.contactButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 40px;
+    background-color: #0aa57a;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #FFFFFF;
+    font-weight: 700;
+}
+
+a.contactButton:hover {
+    font-size: 16px;
+}
+
+.urlList {
+    display: flex;
+    align-items: center;
+}
+
+.urlList img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.urlList img.githubIcon {
+    width: 30px;
+    height: 30px;
+    margin-left: -4px;
+    margin-right: 5px;
+}
+
+.contactList {
+    display: flex;
+    align-items: center;
+}
+
+.contactList img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.contactList a {
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+
+
 
 .container {
     background-color: #045946;
