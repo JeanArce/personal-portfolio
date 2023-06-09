@@ -88,126 +88,222 @@ a.contactButton:hover {
     font-size: 20px;
 }
 
+@media (max-width: 991px) {
+    h1 {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 575px) {
+
+    
+    h1 { 
+        margin-top: 40px;
+        font-size: 28px;
+        line-height: 30px;
+    }
+
+    p {
+        font-size: 14px;
+       
+    }
+
+    a {
+        font-size: 14px;
+    }
+
+    a:hover {
+        font-size: 16px;
+    }
+
+    a.contactButton:hover {
+        font-size: 14px;
+    }
+
+    .contactList a {
+        font-size: 14px;
+    }
+
+}
+
+
 
 
 
 .container {
-    background-color: #045946;
+    background-color: #00ffc0;
     width: 100%;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 30px 20px 20px 20px;
+}
 
-    .containerBox {
-        width: 1024px;
-        height: 450px;
-        border: 5px solid #0aa57a;
-
-        display: flex;
-
-        .sidebar {
-            width: 40%;
-            padding: 15px 15px 15px 30px;
-            
-           
-            .profilePicContainer {
-              
-                margin-top: -35px;
-
-                .profilePic {
-                    width: 100%;
-                    height: auto;
-                    object-fit: cover;
-                    object-position: center;
-                }
-
-             
-            }
-        }
-
-        .mainContent {
-            
-            width: 70%;
-            padding: 25px;
-
-            .menuContainer {
-                .menuWrapper {
-                    display: flex;
-                    margin: 0px;
-                    padding: 0px;
-
-                    list-style: none;
-
-                    .menuList {
-                        margin-right: 35px;
-
-                        .linkItem {
-                            text-decoration: none;
-                            color: #d0fff9;
-                            font-size: 18px;
-
-                            font-family: 'Lora', serif;
-                        }
-                    }
-                }
-            }
-
-
-            .contentContainer {
-
-                .portfolioText {
-                    margin-left: 20px;
-                }
-
-
-                .portfolioList {
-                    display: flex;
-                    
-                    .portfolioItem {
-                        width: 100%;
-                        max-width: 300px;
-                        height: 250px;
-                        
-                        .itemImg {
-                            width: 100%;
-                            height: 100%;
-                            object-fit: cover;
-                            object-position: top;
-                        }
-
-                    }
-
-                    .portfolioItem.mainImage {
-                        min-width: 200px;
-                        margin-right: 20px;
-                    }
-
-                    .portFolioDetails {
-                        color: #d0fff9;
-
-                        .link {
-                            color: #0aa57a;
-
-                        }
-                    }
-
-
-
-                }
-
-
-                .innerContent {
-                    color: #d0fff9;
-                }
-
-
-
-            }
-
-           
-        }
-
-      
+@media (max-width: 991px) {
+    .container {
+        align-items: flex-start;
+        height: auto;
     }
+}
+
+.container .containerBox {
+    width: 1024px;
+    min-height: 450px;
+    border: 5px solid #0aa57a;
+    background-color: #045946;
+    display: flex;
+}
+
+@media (max-width: 1048px) {
+    .container .containerBox {
+        width: 100%;
+    }
+}
+
+@media (max-width: 991px) {
+    .container .containerBox {
+        height: 100%;
+    }
+}
+
+.container .containerBox .sidebar {
+    width: 40%;
+    padding: 15px 15px 15px 30px;
+}
+
+@media (max-width: 991px) {
+    .container .containerBox .sidebar {
+        width: 0%;
+        padding: 0px;
+    }
+}
+
+.container .containerBox .sidebar .profilePicContainer {
+    margin-top: -35px;
+}
+
+.container .containerBox .sidebar .profilePicContainer .profilePic {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}
+
+@media (max-width: 991px) {
+    .container .containerBox .sidebar .profilePicContainer .profilePic {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100px;
+        height: 100px;
+    }
+}
+
+.container .containerBox .mainContent {
+    width: 70%;
+    padding: 25px;
+}
+
+@media (max-width: 991px) {
+    .container .containerBox .mainContent {
+        width: 100%;
+    }
+}
+
+@media (max-width: 575px) {
+    .container .containerBox .mainContent {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+.container .containerBox .mainContent .menuContainer .menuWrapper {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.container .containerBox .mainContent .menuContainer .menuWrapper .menuList {
+    margin-right: 35px;
+}
+
+.container .containerBox .mainContent .menuContainer .menuWrapper .menuList:last-child {
+    margin-right: 0px;
+}
+
+@media (max-width: 575px) {
+    .container .containerBox .mainContent .menuContainer .menuWrapper .menuList {
+        margin-right: 15px;
+    }
+}
+
+.container .containerBox .mainContent .menuContainer .menuWrapper .menuList .linkItem {
+    text-decoration: none;
+    color: #d0fff9;
+    font-size: 18px;
+    font-family: 'Lora', serif;
+}
+
+@media (max-width: 575px) {
+    .container .containerBox .mainContent .menuContainer .menuWrapper .menuList .linkItem {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 991px) {
+    .container .containerBox .mainContent .menuContainer .menuWrapper {
+        justify-content: flex-end;
+    }
+}
+
+.container .containerBox .mainContent .contentContainer .portfolioText {
+    margin-left: 20px;
+}
+
+.container .containerBox .mainContent .contentContainer .portfolioList {
+    display: flex;
+}
+
+.container .containerBox .mainContent .contentContainer .portfolioList .portfolioItem {
+    width: 100%;
+    max-width: 300px;
+    height: 250px;
+}
+
+@media (max-width: 575px) {
+    .container .containerBox .mainContent .contentContainer .portfolioList .portfolioItem {
+        height: 150px;
+    }
+}
+
+.container .containerBox .mainContent .contentContainer .portfolioList .portfolioItem .itemImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.container .containerBox .mainContent .contentContainer .portfolioList .portfolioItem.mainImage {
+    min-width: 200px;
+    margin-right: 20px;
+}
+
+.container .containerBox .mainContent .contentContainer .portfolioList .portFolioDetails {
+    color: #d0fff9;
+}
+
+.container .containerBox .mainContent .contentContainer .portfolioList .portFolioDetails .link {
+    color: #0aa57a;
+}
+
+@media (max-width: 575px) {
+    .container .containerBox .mainContent .contentContainer .portfolioList.specific {
+        flex-direction: column;
+    }
+}
+
+.container .containerBox .mainContent .contentContainer .innerContent {
+    color: #d0fff9;
 }
