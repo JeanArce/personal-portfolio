@@ -307,3 +307,15 @@ a.contactButton:hover {
 .container .containerBox .mainContent .contentContainer .innerContent {
     color: #d0fff9;
 }
+
+
+
+/* extra css */
+
+.portfolioList img {
+    cursor: pointer;
+}
+
+.note {
+    color: #FFFFFF;
+}
