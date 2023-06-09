@@ -30,7 +30,19 @@ Hello there! I'm **Jean Larroza Arcenal**, I am originally from the Philippines 
     </html>```
 
 - CSS
+    ```body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f0f0f0;
+      color: #333;
+    }```
 - JavaScript
+    ```function calculateRectangleArea(length, width) {
+      var area = length * width;
+      return area;
+    }```
+    
 ## Contact Links
 
 [IG]()
