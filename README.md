@@ -1,11 +1,11 @@
-# My portfolio
+# My portfolio 
 
 
-| Projects                | GitHub URL                                                        | Column 3 |
-| --------                | --------                                                          | -------- |
-| Cross-Course- Assignment|  https://github.com/JeanArce/cross-course-Rainydays-CA-DESIGN-1   | Cell 2   |
-| Semester Project 1      | https://github.com/JeanArce/COM-SCI-MUSEUM                        | Cell 4   |
-| Project Exam 1          | https://github.com/Noroff-FEU-Assignments/project-exam-1-JeanArce | Cell 2   |
+| Projects                             GitHub URL                                             |       Website URL                               |
+| --------                | --------                                                          | --------                                        |
+| Cross-Course- Assignment|  https://github.com/JeanArce/cross-course-Rainydays-CA-DESIGN-1   | https://rainbow-donut-14a345.netlify.app        |
+| Semester Project 1      | https://github.com/JeanArce/COM-SCI-MUSEUM                        | https://incredible-griffin-d71f2e.netlify.app   |
+| Project Exam 1          | https://github.com/Noroff-FEU-Assignments/project-exam-1-JeanArce | https://chic-lolly-722a58.netlify.app           |
 
 
 
