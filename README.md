@@ -46,8 +46,8 @@ Hello there! I'm **Jean Larroza Arcenal**, I am originally from the Philippines 
     
 ## Contact Links
 
-[FB](https://www.facebook.com/jn.arcenal)
-[Twitter](https://twitter.com/jn.arcenal)
+- [FB](https://www.facebook.com/jn.arcenal)
+- [Twitter](https://twitter.com/jn.arcenal)
 
 [IG](https://www.instagram.com/jin_rcnal/?igshid=MjEwN2IyYWYwYw%3D%3D&fbclid=IwAR1BThQ0xcJTk5fWGK_IfNrCJTDGwUyxK2d-4pvPqxYltNqwDjmw_hq6OpA)
 
