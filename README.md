@@ -1,6 +1,6 @@
 # My portfolio 
 
-![POrtfolioScreenshot](https://drive.google.com/file/d/15qSXWaZOf6ORU7Sr93jjm4phr7VeLyWc/view?usp=drive_link)
+![PortfolioScreenshot](https://drive.google.com/uc?export=view&id=15qSXWaZOf6ORU7Sr93jjm4phr7VeLyWc)
 
 Hello there! I'm **Jean Larroza Arcenal**, I am originally from the Philippines and live here in Norway for *15 years*, a passionate front-end development student with a deep love for creating engaging and user-friendly websites.
 ## Hobbies
