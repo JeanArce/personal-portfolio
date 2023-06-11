@@ -8,7 +8,7 @@ Welcome to my portfolio website! I have built this site using HTML and  CSS,  to
 
 The website design reflects my passion for creativity and attention to detail. I have utilized HTML to structure the content and ensure a seamless user experience. CSS has been employed to enhance the visual appeal, making the site visually engaging and aesthetically pleasing. The combination of these two technologies allows for a responsive and intuitive design that adapts to various screen sizes and devices.
 
-Within my portfolio, you will find a showcase of my previous projects, ranging from web development to design and beyond. Each project is presented with detailed descriptions, highlighting the challenges faced, solutions implemented, and the technologies utilized. This helps you understand my problem-solving skills and my ability to adapt to different project requirements.
+Within my portfolio, you will find a showcase of my projects, ranging from web development to design and beyond. Each project is presented with detailed descriptions, highlighting the challenges faced, solutions implemented, and the technologies utilized. This helps you understand my problem-solving skills and my ability to adapt to different project requirements.
 
 ## Project Accomplished
 
