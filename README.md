@@ -2,13 +2,11 @@
 
 ![PortfolioScreenshot](https://drive.google.com/uc?export=view&id=1BYnz4g3ksIzl_qAcfU_zfrRGTBX_Di2S)
 
-Hello there! I'm **Jean Larroza Arcenal**, I am originally from the Philippines and live here in Norway for *15 years*, a passionate front-end development student with a deep love for creating engaging and user-friendly websites.
-## Hobbies
+Welcome to my portfolio website! I have built this site using HTML and  CSS,  to showcase my skills, projects, and achievements. Through this website, I aim to provide you with an overview of my expertise and demonstrate the value I can bring to any project or team.
 
-1. Photography
-2. Surfing
-3. Reading
-4. Cooking
+## Description
+
+The website design reflects my passion for creativity and attention to detail. I have utilized HTML to structure the content and ensure a seamless user experience. CSS has been employed to enhance the visual appeal, making the site visually engaging and aesthetically pleasing. The combination of these two technologies allows for a responsive and intuitive design that adapts to various screen sizes and devices.
 
 ## Project Accomplished
 
@@ -43,6 +41,7 @@ Hello there! I'm **Jean Larroza Arcenal**, I am originally from the Philippines 
       var area = length * width;
       return area;
     }```
+    
     
 ## Contact Links
 
