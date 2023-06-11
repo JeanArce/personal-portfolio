@@ -39,16 +39,23 @@ a.contactButton {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100px;
-    height: 40px;
-    background-color: #0aa57a;
-    color: #FFFFFF;
+    width: 120px;
+    height: 45px;
+    background-color: #FFFFFF;
+    color: #045946;
     text-decoration: none;
     font-size: 16px;
     border-radius: 8px;
-    border: 1px solid #FFFFFF;
+    border: 1px solid #0aa57a;
     font-weight: 700;
 }
+
+a.contactButton {
+    font-size: 20px;
+    color: #FFFFFF #045946;
+}
+
+
 
 a.contactButton:hover {
     font-size: 16px;
@@ -295,7 +302,7 @@ a.contactButton:hover {
 }
 
 .container .containerBox .mainContent .contentContainer .portfolioList .portFolioDetails .link {
-    color: #0aa57a;
+    color: #d0fff9;
 }
 
 @media (max-width: 575px) {
